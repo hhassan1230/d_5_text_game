@@ -1,5 +1,18 @@
 $green: #16DDA4;
 $font: Roboto, sans-serif;
 
-
+a .bklogo {
+  width: 120px;
+  float: right;
+}
+h1 {
+  text-align: left;
+}
+.choice {
+  @include span-columns(12);
+  text-align: center;
+  button {
+    @include button;
+  }
+}
 

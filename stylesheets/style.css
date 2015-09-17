@@ -4,6 +4,9 @@ html {
 *, *::after, *::before {
   box-sizing: inherit; }
 
+a .bklogo {
+  width: 120px; }
+
 .title h1 {
   text-align: center; }
 
@@ -88,6 +91,10 @@ html {
     cursor: not-allowed;
     opacity: 0.5; }
 
+.bklink {
+  text-align: center;
+  width: 120px; }
+
 .choice {
   float: left;
   display: block;
@@ -106,9 +113,6 @@ html {
     width: 100%; }
     .choice .bklogo:last-child {
       margin-right: 0; }
-    .choice .bklogo a .bklink {
-      text-align: center;
-      width: 120px; }
 
 header::after {
   clear: both;

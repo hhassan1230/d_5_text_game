@@ -2,17 +2,36 @@ $green: #16DDA4;
 $font: Roboto, sans-serif;
 
 a .bklogo {
-  width: 120px;
-  float: right;
+  // float: right;
 }
-h1 {
-  text-align: left;
+.title {
+  h1 {
+    text-align: center;
+  }
+}
+.yeah button {
+  @include button(shiny); 
+}
+.nah button {
+  @include button(shiny, #ff0000);
+}
+.maybe button {
+  @include button(shiny, #FF6600);
 }
 .choice {
   @include span-columns(12);
   text-align: center;
-  button {
-    @include button;
+  a {
+    color: white;
+    text-decoration: none;
   }
+  .bklogo {
+    @include span-columns(12);
+    a .bklink {
+      text-align: center;
+      width: 120px;
+    }
+  }
+  
 }
 

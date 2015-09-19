@@ -11,19 +11,35 @@ a .bklogo {
     text-align: center;
   }
 }
-.yeah button {
-  @include button(shiny); 
+.yeah {
+  padding: 20px 0px 40px;
+  button {
+    @include button(shiny); 
+  }
 }
-.nah button {
-  @include button(shiny, #ff0000);
+.nah {
+  padding: 20px 0px 40px;
+  button {
+    @include button(shiny, #ff0000);
+  } 
 }
-.maybe button {
-  @include button(shiny, #FF6600);
+.maybe {
+  padding: 20px 0px 40px;
+  button {
+    @include button(shiny, #FF6600);
+  }
 }
-.bklink {
+.bklogo {
+  @include span-columns(12);
   text-align: center;
   
-  width: 120px;
+  a {
+    display: block;
+    padding-bottom:20px;
+    img {
+      width:120px;
+    }
+  }
   
 }
 .choice {
@@ -32,12 +48,6 @@ a .bklogo {
   a {
     color: white;
     text-decoration: none;
-  }
-  .bklogo {
-    @include span-columns(12);
-    // a .bklink {
-    //   text-align: center;
-    // }
   }
   
 }

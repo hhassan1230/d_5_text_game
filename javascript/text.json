@@ -1,0 +1,86 @@
+{
+
+	"start": {
+		"text": "You are currently spending your Friday night alone. You could do something productive, but where is the fun in that? You crave some social interaction.",
+		"choice": [
+			{"bar": "Bar?"},
+			{"vgames": "or video games?"}
+		]
+	},
+	"bar": {
+		"text": "You put on your swag you are ready for the bar! But is the bar ready for you? You see a gi… woman. She is pretty attractive or you drank way too much in the ten minutes that you have been here. She looked at you and smiled. In your mind that means she clearly wants to have your babies.",
+		"choice": [
+			{"approach": "approach her?"},
+			{"noApproach": "Nah, I'm just seeing things"}
+		]
+	},
+	"barA": {
+		"text": "You walk up and say, ‘I saw you smiling at me and trust me I can make you happier the less distance there is between us… I don’t mean it in that way. *flustered I just meant we should get closer.’ ‘More intimate?’ she asks. She giggles without even waiting for your reaction. The two of you are enjoying each other’s company. So much so that it has escalated to ‘your place or mine?’ and she asked. Oh baby. It is regretful that you are blacking out right now.",
+		"choice": [
+			{"blackoutA": "Your Place?"},
+			{"blackoutB": "or Mine?"}
+		]
+	},
+	"wakeUp": {
+		"text": "You wake up with a splitting headache, and the first thing you can see is a pale filled with yesterday and maybe even today’s breakfast. Being wasted is not an excuse to skip the most important meal of the day. Apparently the girl from last night was taking care of you. You turned around to see her disturbingly surrounded by a moat made of her saliva. You did not know a person can drool that much. How is she still hydrated? A choice must be made!",
+		"choice": [
+		{"saliva": "eww!"},
+		{"noSaliva": "I saw nothing"}
+		]
+	},
+	"wakeUpA": {
+		"text": "That is gross. But everyone has their flaws. On the bright side… I can go for a late night swim? If I have a dream that I am drowning it is probably actually happening and not some metaphor? There doesn’t seem to be any positives but we’ll take it.",
+		"choice": [
+			{"sorry": "Sorry I ruined the bed"},
+			{"cute": "You’re still cute"}
+		]
+	},
+	"sorryA": {
+		"text": "Wow I must have been really drunk. I tend to make a barrier on my bed when that happens. Most times I use salt but depending on the night saliva is a good close second. Thank you for taking care of me, to show my appreciation I would like to take you out for breakfast. That is the very least I can do, and I’m not fond of hard work. She is not convinced that you believe you did that, but she loses nothing by playing along. ‘Well you are sick so I wouldn’t want to work you too hard. Later you will not have that excuse.’ Did she just say she is in for the long haul? Find out next time in the next desperate adventures. Seriously there will be another episode please be there. Please.",
+		"choice": [
+			// {"": ""},
+			{"end": "end"}
+		]
+ 	},
+ 	"cuteA": {
+ 		"text": "If that water wall is the least attractive bit about you, it will take more than that to keep me away. Although those holes in the sheets are scaring me, I am glad that you were able to trust me in the keeping of this secret. Hopefully this barrier will be one of many that we tackle together. Although she was put at ease by your speech, it would be funnier for her to watch you struggle. ‘I’m flattered that you want to marry me, but don’t you think this a bit soon? We didn’t even go on a proper date, and you want to propose?’ In your mind things have clearly taken a turn for the worst! Next time you will have a chance to salvage or nuke your chances.",
+ 		"choice": [
+ 			{"end": "end"}
+ 		]
+  },
+  "barB": {
+  	"text": "You decide to end this night on a high note, you were smiled at. She clearly wanted to have your babies, and you turned her down. Now you can go play video games a winner.",
+  	"choice": [
+  		{"vgames": "To your loney video game mancave."}
+  	]
+  },
+  "videogamesStart": {
+  	"text": "You are concerned you have not had enough sodium in your diet. You plan to change this by doing some pvp while drinking after every loss (kids, people bad at video games that will hold themselves to these rules, alcoholics that aren’t going to listen to me anyways, don’t try this at home.) You have your headset and a Wi-Fi connection the salt will come in due time. All that is left to decide is whether you play a ",
+  	"choice": [
+  		{"fightingGame": "fighting game?"},
+  		{"fps": "or an fps?"}
+  	]
+  },
+  "fightingGame": {
+  	"text": "You pick out the game that you beat your friends asses at all the time. ‘Gladiator fights! Hobo edition.’ You’ve always wondered what kind of sick minds would create such a game. But it had solid game mechanics. You have played other games where kids fought to what seemed like death, why should this game bother you? At any rate this is not time for introspection, for that party foul you take a huge drink and venture on to the online vs world. You are not used to this online environment. How the hell are they hitting you with those moves? They are clearly using the most punishable moves in the game, yet they are getting away with it. You are not sure why these techniques are so good right now, but you doubt you will be able to figure it out. This is your tenth match already, and you have been drinking after every loss. You believe it is time to use that headset (oh gosh).",
+  	"choice": [
+  		{"salt": "salty!"},
+  		{"advice": "ask for advice?"}
+  	]
+  },
+  "salt": {
+  	"text": "You start shouting all types of curse words at the other player. If you aren’t permabanned that would be very surprising. ‘Learn to play the game you glitch abusing scrub’ was one of the nicer things, no it was the nicest thing you said. You were not ready for the rebuttal. ‘Get good you whiny ass b*+<#. Am I the one losing? Am I the one upset because I just got perfected on three matches in a row? Tell me where I am breaking the game. Or is it that I actually know the online game? Get good.’ You were definitely not expecting this. You apologize. ‘I’m sorry I went off like that. I remember a time when I was good at this, and it was just yesterday, so I got frustrated. You are right, I was treating the online like the offline and that was my mistake. Maybe you could give me some advice?’ For a hammered person, your apology sounds pretty damn good. Good job. Your opponent is a good sport, they give some advice matchup. ‘The shopping cart is actually safe to use on block, it will take the opponent a long time to get out of the blocking animation.’ You can finally tell that the person that is teaching you these stats is a child!? Oh hell no! Your pride as an adult is hurt.",
+  	"choice": [
+  		{"drink": "Drink more?"},
+  		{"stopPlaying": "stop playing?"}
+  	]
+  },
+  "saltA": {
+  	"text": "You decided to drink more you blacked out. You wake up to your phone in your hand and see that you called your ex at some point during the night. You hoped it was a buttdial, but there was an exchange of messages. You don’t even want to know what they say. You were so focused on the phone that you didn’t notice the familiar scent. You read the last message; ‘I’ll be right over.’ You are too afraid to turn around, that will have to wait till next time.",
+  	"choice": [
+  		{"end": "end"}
+  	]
+  }
+
+
+}

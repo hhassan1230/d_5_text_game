@@ -1,5 +1,4 @@
 {
-
 	"start": {
 		"text": "You are currently spending your Friday night alone. You could do something productive, but where is the fun in that? You crave some social interaction.",
 		"choice": [
@@ -38,7 +37,6 @@
 	"sorryA": {
 		"text": "Wow I must have been really drunk. I tend to make a barrier on my bed when that happens. Most times I use salt but depending on the night saliva is a good close second. Thank you for taking care of me, to show my appreciation I would like to take you out for breakfast. That is the very least I can do, and I’m not fond of hard work. She is not convinced that you believe you did that, but she loses nothing by playing along. ‘Well you are sick so I wouldn’t want to work you too hard. Later you will not have that excuse.’ Did she just say she is in for the long haul? Find out next time in the next desperate adventures. Seriously there will be another episode please be there. Please.",
 		"choice": [
-			// {"": ""},
 			{"end": "end"}
 		]
  	},
@@ -81,6 +79,4 @@
   		{"end": "end"}
   	]
   }
-
-
 }

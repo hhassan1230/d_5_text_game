@@ -1,8 +1,11 @@
 $("document").ready(function(){
-  
- 
+  // var text = ;
+  var obj = {};
+  $.getJSON("./javascript/text.json", function(json) {
+		// debugger;
+    var obj = json;
     $("button").on("click", function(){
-      var newScene = "<h1>Start of Game</h1>";
+      var newScene = "<h1>" + obj.start["text"] + "</h1>";
     	var choice = $(this).attr('class');
 			switch (choice) { 
 				case 'maybeStart': 
@@ -10,7 +13,9 @@ $("document").ready(function(){
 
 					$('.scene').html(maybe);
 		    	// debugger;
-		    	window.setTimeout($('.scene').html(newScene), 200000);
+		    	setTimeout(function() {
+						$('.scene').html(newScene);
+					}, 2000);
 					// $('.scene').delay( 80000 ).html(newScene);
 					break;
 				case 'dontStart': 
@@ -30,5 +35,6 @@ $("document").ready(function(){
 			}
       
     });
+	});
   
 })

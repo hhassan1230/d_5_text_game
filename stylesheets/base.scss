@@ -17,6 +17,18 @@ a .bklogo {
     @include button(shiny); 
   }
 }
+.yeah2 {
+  padding: 20px 0px 40px;
+  button {
+    @include button(shiny); 
+  }
+}
+.nah2 {
+  padding: 20px 0px 40px;
+  button {
+    @include button(shiny, #ff0000);
+  } 
+}
 .nah {
   padding: 20px 0px 40px;
   button {

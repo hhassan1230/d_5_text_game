@@ -1,6 +1,6 @@
 {
 	"start": {
-		"text": "You are currently spending your Friday night alone. You could do something productive, but where is the fun in that? You crave some social interaction.",
+		"text": "You are currently spending your Friday night alone.\nYou could do something productive, but where is the fun in that?\nYou crave some social interaction.",
 		"choice": [
 			{"bar": "Bar?"},
 			{"vgames": "or video games?"}

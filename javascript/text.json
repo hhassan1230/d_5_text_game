@@ -3,14 +3,14 @@
 		"text": "You are currently spending your Friday night alone.\nYou could do something productive, but where is the fun in that?\nYou crave some social interaction.",
 		"choice": [
 			{"bar": "Bar?"},
-			{"vgames": "or video games?"}
+			{"videogamesStart": "or video games?"}
 		]
 	},
 	"bar": {
 		"text": "You put on your swag you are ready for the bar! But is the bar ready for you? You see a gi… woman. She is pretty attractive or you drank way too much in the ten minutes that you have been here. She looked at you and smiled. In your mind that means she clearly wants to have your babies.",
 		"choice": [
-			{"approach": "approach her?"},
-			{"noApproach": "Nah, I'm just seeing things"}
+			{"barA": "approach her?"},
+			{"barB": "Nah, I'm just seeing things"}
 		]
 	},
 	"barA": {
@@ -49,7 +49,7 @@
   "barB": {
   	"text": "You decide to end this night on a high note, you were smiled at. She clearly wanted to have your babies, and you turned her down. Now you can go play video games a winner.",
   	"choice": [
-  		{"vgames": "To your loney video game mancave."}
+  		{"videogamesStart": "To your loney video game mancave."}
   	]
   },
   "videogamesStart": {

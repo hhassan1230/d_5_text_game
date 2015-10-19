@@ -63,4 +63,13 @@ a .bklogo {
   }
   
 }
+#choice {
+  @include span-columns(12);
+  text-align: center;
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  
+}
 

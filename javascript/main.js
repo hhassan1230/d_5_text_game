@@ -6,7 +6,7 @@ $("document").ready(function(){
     var obj = json;
     $(".yeah button, .nah button, .maybe button").on("click", function(){
       var newScene = "<h1>" + obj.start["text"] + "</h1>";
-      var currentChoice = "<section class='choice'>"
+      var currentChoice = "<section id='choice'>"
       for (var i = 0; i < obj.start["choice"].length; i++) {
 				var key = Object.keys(obj.start["choice"][i]);
 				currentChoice += "<button class='"+ key +"'>"+ obj.start["choice"][i][key] +"</button> ";	
@@ -39,10 +39,32 @@ $("document").ready(function(){
   	// 			debugger;
 			// }
       
+			$( "#choice" ).on( "click", "button", function( event ) {
+			    event.preventDefault();
+			    sceneHash = obj[this.className];
+			    var newScene = "<h1>" + sceneHash["text"] + "</h1>";
+      		var currentChoice = "<section id='choice'>"
+		      for (var i = 0; i < sceneHash["choice"].length; i++) {
+						var key = Object.keys(sceneHash["choice"][i]);
+						currentChoice += "<button class='"+ key +"'>"+ sceneHash["choice"][i][key] +"</button> ";	
+		      };
+		      currentChoice += "</section>";
+
+					// debugger;
+			    // console.log( $( this ).text() );
+			    $('.scene').html(newScene + currentChoice);
+			});
     });
-		$("button").on("click", function(){
-			debugger;
-		});
+		
+		// $("button").on("click", function(){
+		// 	var choice = $(this).attr('class');
+		// 	debugger;
+		// 	if ((choice !== "maybeStart") && (choice !== "dontStart") && (choice !== "startGame") ) {
+		// 		debugger;
+				
+		// 	};
+		// });
 	});
   
 })
+

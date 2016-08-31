@@ -16,8 +16,8 @@
 	"barA": {
 		"text": "You walk up and say, ‘I saw you smiling at me and trust me I can make you happier the less distance there is between us… I don’t mean it in that way. *flustered I just meant we should get closer.’ ‘More intimate?’ she asks. She giggles without even waiting for your reaction. The two of you are enjoying each other’s company. So much so that it has escalated to ‘your place or mine?’ and she asked. Oh baby. It is regretful that you are blacking out right now.",
 		"choice": [
-			{"blackoutA": "Your Place?"},
-			{"blackoutB": "or Mine?"}
+			{"wakeUp": "Your Place?"},
+			{"wakeUp": "or Mine?"}
 		]
 	},
 	"wakeUp": {
@@ -27,8 +27,15 @@
 		{"noSaliva": "I saw nothing"}
 		]
 	},
-	"wakeUpA": {
-		"text": "That is gross. But everyone has their flaws. On the bright side… I can go for a late night swim? If I have a dream that I am drowning it is probably actually happening and not some metaphor? There doesn’t seem to be any positives but we’ll take it.",
+	"saliva": {
+		"text": "That is gross. But everyone has their flaws. On the bright side… I can go for a late night swim? If I have a dream that I am drowning it is probably actually happening and not some metaphor? There doesn’t seem to be any positives but we’ll take it.\nShe wakes up and quickly realizes she has destroyed your bed with her saliva. Oh how embarrassed she must want to feel. Being the gentleman that you are you say…",
+		"choice": [
+			{"sorry": "Sorry I ruined the bed"},
+			{"cute": "You’re still cute"}
+		]
+	},
+	"noSaliva": {
+		"text": "A little water never killed nobody, except for those that drowned, or choked, or got hit by a ball of hail, or got cholera, or impaled by ice. This doesn’t matter because none of that is going to happen to you because of her, probably.\nShe wakes up and quickly realizes she has destroyed your bed with her saliva. Oh how embarrassed she must want to feel. Being the gentleman that you are you say…",
 		"choice": [
 			{"sorry": "Sorry I ruined the bed"},
 			{"cute": "You’re still cute"}
@@ -77,6 +84,12 @@
   	"text": "You decided to drink more you blacked out. You wake up to your phone in your hand and see that you called your ex at some point during the night. You hoped it was a buttdial, but there was an exchange of messages. You don’t even want to know what they say. You were so focused on the phone that you didn’t notice the familiar scent. You read the last message; ‘I’ll be right over.’ You are too afraid to turn around, that will have to wait till next time.",
   	"choice": [
   		{"end": "end"}
+  	]
+  },
+  "stopPlaying": {
+  	"text": "Waka",
+  	"choice": [
+  		{"bar":"you should write something here akil"}
   	]
   }
 }

@@ -1,1 +1,48 @@
-
+.videogamesStart {
+	@include button(shiny, #FF6600);
+}
+.barB {
+	@include button(shiny, #FF6600);
+}
+.blackoutB {
+	@include button(shiny, #FF6600);
+}
+.noSaliva{
+	@include button(shiny, #FF6600);
+}
+.cute {
+	@include button(shiny, #FF6600);
+}
+.fps{
+	@include button(shiny, #FF6600);
+}
+.advice{
+	@include button(shiny, #FF6600);
+}
+.stopPlaying{
+	@include button(shiny, #FF6600);
+}
+.drink{
+	@include button(shiny); 
+}
+.salt{
+	@include button(shiny); 
+}
+.fightingGame{
+	@include button(shiny); 	
+}
+.sorry{
+	@include button(shiny); 		
+}
+.saliva{
+	@include button(shiny); 			
+}
+.blackoutA{
+	@include button(shiny); 			
+}
+.barA{
+	@include button(shiny); 			
+}
+.bar{
+	@include button(shiny); 			
+}
